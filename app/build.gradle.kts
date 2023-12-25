@@ -113,6 +113,16 @@ dependencies {
     api("com.google.dagger:dagger-android-support:2.46.1")
     ksp("com.google.dagger:dagger-android-processor:2.46.1")
 
+   //Activity KTX for viewModels()
+    implementation("androidx.activity:activity-ktx:1.8.2")
+
+    //Dagger - Hilt
+    implementation("com.google.dagger:hilt-android:2.48")
+    ksp("com.google.dagger:hilt-android-compiler:2.46.1")
+
+    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0")
+    ksp("androidx.hilt:hilt-compiler:1.1.0")
+
     //Easy permissions
     implementation("pub.devrel:easypermissions:3.0.0")
 
